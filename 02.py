@@ -11,10 +11,10 @@ perfil_label.pack(side='top', pady=5)
 perfil_label.place(relx=0.5, rely=0.1, anchor='e')
 
 logo = tk.PhotoImage(file='image 1.png')
-logo_menor = logo.subsample(2, 2)
+logo_menor = logo.subsample(4, 4)
 logo_label = tk.Label(janela, image=logo_menor, bg='white')
 logo_label.pack(side='top', pady=5)
-logo_label.place(relx=0.7, rely=0.1, anchor='w')
+logo_label.place(relx=0.9, rely=0.1, anchor='w')
 
 menu = tk.PhotoImage(file='Menu- Center.png')
 menu_menor = menu.subsample(2, 2)
